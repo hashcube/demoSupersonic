@@ -14,13 +14,11 @@
   ],
   "title": "Supersonic Demo",
   "android": {
-      "sponsorPayAppID": "31393",
-      "sponsorPaySecurityToken": "7ad6abcdb776db9b0d16bfad10d8ce65",
+      "supersonicAppKey": "please put your app key",
       "versionCode": 0
   },
   "ios": {
-      "sponsorPayAppID": "31450",
-      "sponsorPaySecurityToken": "9231e487e7ada331d0fea0b69a82c083",
+      "supersonicAppKey": "please put your app key",
       "buildNumber": 1
   },
   "addons": {

@@ -36,18 +36,6 @@ exports = Class(GC.Application, function () {
 
     buttonY = this.header.style.y + this.header.style.height + buttonPadding;
 
-    this.initializeButton = new ButtonView({
-      superview: this.view,
-      x: buttonStart22,
-      y: buttonY,
-      width: buttonWidth2,
-      height: buttonHeight,
-      title: "Init with User",
-      onClick: bind(this, this.initializeSponsorPayWithUser)
-    });
-
-    buttonY += buttonHeight + buttonPadding;
-
     this.videoStatusView = new TextView({
       superview: this.view,
       x: buttonStart1,
